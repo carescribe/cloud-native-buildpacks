@@ -1,0 +1,9 @@
+api = "0.2"
+
+[buildpack]
+id = "carescribe/audiowaveform"
+version = "0.1"
+name = "Audiowaveform"
+
+[[stacks]]
+id = "heroku-20"

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "youtube-dl"
+exit 0

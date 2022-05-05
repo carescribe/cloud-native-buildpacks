@@ -1,0 +1,9 @@
+api = "0.2"
+
+[buildpack]
+id = "carescribe/youtube-dl"
+version = "0.1"
+name = "youtube-dl"
+
+[[stacks]]
+id = "heroku-20"
