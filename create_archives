@@ -1,0 +1,9 @@
+#!/bin/bash
+
+BUILDPACKS=(youtube-dl audiowaveform)
+
+mkdir -p build
+
+for pack in ${BUILDPACKS[@]}; do
+   tar -czvf build/$pack.tar.gz $pack/*
+done
